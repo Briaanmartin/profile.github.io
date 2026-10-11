@@ -10,8 +10,8 @@
   <meta property="og:description" content="Dari kerja lapangan dan penelitian hingga teknologi untuk konservasi. Jelajahi pengalaman, fotografi, publikasi, dan proyek Brian Martin.">
   <meta property="og:type" content="website">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23102d27'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia,serif' font-size='35' fill='%23dcf19a'%3EB%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261011-firewatch">
+  <script src="script.js?v=20261011-firewatch" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Lewati ke isi utama</a>
@@ -20,7 +20,7 @@
       <a class="brand" href="#beranda" aria-label="Brian Martin, beranda"><span class="brand-monogram" aria-hidden="true">bm.</span><span>BRIAN MARTIN<small>CONSERVATION &amp; BIODIVERSITY</small></span></a>
       <button class="menu-toggle" aria-controls="primary-nav" aria-expanded="false" hidden>Menu</button>
       <nav id="primary-nav" aria-label="Navigasi utama">
-        <a href="#profil">Profil</a><a href="#pengalaman">Pengalaman</a><a href="#karya">Karya</a><a href="#publikasi">Publikasi</a><a class="nav-contact" href="#kontak">Terhubung</a>
+        <a href="#profil">Profil</a><a href="#post">Post</a><a href="#pengalaman">Pengalaman</a><a href="#karya">Karya</a><a href="#publikasi">Publikasi</a><a class="nav-contact" href="#kontak">Terhubung</a>
       </nav>
     </div>
   </header>
@@ -33,6 +33,7 @@
           <h1 id="hero-title" class="hero-deck">Konservasi satwa,<br>dari lapangan<br><em>hingga data.</em></h1>
           <p class="hero-intro">Menghubungkan penelitian, pemantauan biodiversitas, dan kerja bersama masyarakat untuk menjaga kehidupan liar.</p>
           <div class="hero-actions"><a class="button button-lime" href="#karya">Jelajahi karya</a><a class="text-link light" href="#profil">Telusuri</a></div>
+          <a class="hero-post-link" href="#post"><span>POST TERBARU</span> KHDTK FireWatch <span aria-hidden="true">↗</span></a>
         </div>
         <figure class="hero-portrait">
           <div class="portrait-frame"><img src="assets/brian-martin-profile.jpg" width="4128" height="6192" alt="Brian Martin duduk di antara akar pohon besar di hutan" fetchpriority="high"></div>
@@ -41,6 +42,29 @@
         </figure>
       </div>
       <div class="container hero-bottom"><span>HERPETOFAUNA</span><span>WILDLIFE MONITORING</span><span>HABITAT CONSERVATION</span><span>COMMUNITY &amp; SCIENCE</span></div>
+    </section>
+
+    <section class="section posts-section" id="post" aria-labelledby="posts-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">CATATAN &amp; PROYEK</p><h2 id="posts-title">Dari profil,<br><em>jelajahi karya saya.</em></h2></div><p>Perkembangan teknologi dan kerja lapangan untuk membantu pemantauan kawasan konservasi.</p></div>
+        <article class="firewatch-post" aria-labelledby="firewatch-post-title">
+          <div class="firewatch-cover">
+            <div class="firewatch-cover-label"><span>KHDTK</span><span>WEBGIS · LEMPAKE</span></div>
+            <div class="firewatch-wordmark"><span aria-hidden="true">◇</span> FireWatch</div>
+            <img src="assets/firewatch-boundary.svg" width="460" height="290" alt="Bentuk batas kawasan KHDTK Lempake berdasarkan AOI SHP" loading="lazy">
+            <p>Peta kawasan. Indikasi api.<br>Catatan dari lapangan.</p>
+          </div>
+          <div class="firewatch-post-copy">
+            <div class="post-meta"><span>TEKNOLOGI KONSERVASI</span><time datetime="2026-10-11">11 Oktober 2026</time></div>
+            <h3 id="firewatch-post-title">Mengenal KHDTK FireWatch</h3>
+            <p class="post-place">KHDTK Diklathut Fahutan Unmul Lempake</p>
+            <p>Saya mengembangkan WebGIS ini untuk menghubungkan informasi hotspot satelit, batas kawasan, dan dokumentasi lapangan dalam satu tempat.</p>
+            <ul class="post-features"><li>Jelajahi peta dan batas KHDTK.</li><li>Tinjau hotspot serta riwayat data tahun 2026.</li><li>Tandai titik pengamatan di peta dan lampirkan foto laporan.</li></ul>
+            <div class="post-actions"><a class="button button-firewatch" href="https://briaanmartin.github.io/KHDTK-FireWatch/">Buka WebGIS FireWatch <span aria-hidden="true">↗</span></a><a class="text-link" href="https://briaanmartin.github.io/KHDTK-FireWatch/#history">Lihat riwayat 2026</a></div>
+            <p class="post-note">Hotspot merupakan indikasi satelit yang perlu diverifikasi di lapangan. Laporan yang dibuat tersimpan di browser perangkat Anda.</p>
+          </div>
+        </article>
+      </div>
     </section>
 
     <section class="section about" id="profil" aria-labelledby="about-title">
